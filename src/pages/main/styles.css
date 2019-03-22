@@ -1,0 +1,39 @@
+.posts-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.posts-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.posts-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px; 
+} 
+
+.posts-list article a{
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #da552f;
+    justify-content: center;
+    align-items: center;
+    color: #da552f;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    height: 42px;
+    transition: all .2s;
+}
+.posts-list article a:hover{
+    background-color: #da552f;
+    color: #fff;
+} 
